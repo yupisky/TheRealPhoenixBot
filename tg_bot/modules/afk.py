@@ -72,7 +72,7 @@ def reply_afk(bot: Bot, update: Update):
                     if not reason:
                         res = "{} is AFK!".format(fst_name)
                     else:
-                        res = "{} Meninggoy!\nAlasan: {}".format(fst_name, reason)
+                        res = "{} Oke Gausah Balik Lagi!\nAlasan: {}".format(fst_name, reason)
                     message.reply_text(res)
 
 
