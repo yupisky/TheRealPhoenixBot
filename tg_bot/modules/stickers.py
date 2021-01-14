@@ -237,7 +237,7 @@ __help__ = """
 __mod_name__ = "Stickers"
 STICKERID_HANDLER = DisableAbleCommandHandler("stickerid", stickerid)
 GETSTICKER_HANDLER = DisableAbleCommandHandler("getsticker", getsticker)
-CURI_HANDLER = DisableAbleCommandHandler("curi", colong, pass_args=True, admin_ok=False)
+CURI_HANDLER = DisableAbleCommandHandler("colong", colong, pass_args=True, admin_ok=False)
 
 dispatcher.add_handler(STICKERID_HANDLER)
 dispatcher.add_handler(GETSTICKER_HANDLER)
